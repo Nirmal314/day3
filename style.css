@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: aqua;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#items{
+    display: flex;
+}
+p{
+    padding: 15px;
+}
+div > img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#anc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
